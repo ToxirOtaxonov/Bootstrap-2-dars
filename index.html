@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--
+Bootstrap ranglari: 1. muted => kulrang; 2.primary => ko'krang; 3. success=> yashil rang; 4.info => moviy rang;
+5. warning => sariq rang; 6.danger => qizil rang; 7.secondary=> och kulrang; 8. dark => qora rang;
+9. light (white) => oq rang;
+-->
+<div class="container">
+    <div class="row bg-warning">
+        <div class="col-md-4">
+            <p class="font-weight-bold font-italic text-justify text-uppercase bg-primary text-danger">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto
+                asperiores beatae, consequatur deserunt dignissimos dolores, doloribus ducimus id
+                incidunt modi nisi qui repellendus ut veniam! Odit provident quasi tenetur.
+            </p>
+        </div>
+        <div class="col-md-4 ">
+            <p class=" font-weight-bold font-italic text-justify text-uppercase bg-info text-success" >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto
+                asperiores beatae, consequatur deserunt dignissimos dolores, doloribus ducimus id
+                incidunt modi nisi qui repellendus ut veniam! Odit provident quasi tenetur.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p class="font-weight-bold font-italic text-justify text-uppercase bg-secondary text-light">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto
+                asperiores beatae, consequatur deserunt dignissimos dolores, doloribus ducimus id
+                incidunt modi nisi qui repellendus ut veniam! Odit provident quasi tenetur.
+            </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <button type="button" class="btn btn-primary active">Primary</button>
+            <button type="button" class="btn btn-success disabled">Success</button>
+            <button type="button" class="btn btn-danger active">Danger</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-outline-warning disabled">Warning</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-info active">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

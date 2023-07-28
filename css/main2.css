@@ -1,0 +1,137 @@
+body{
+    background-color: white;
+}
+.first{
+    background: linear-gradient(80deg,yellow,orange);
+    border-radius: 30px !important;
+    width: 100px !important;
+    color: white !important;
+    display: inline-block;
+}
+.second{
+    display: inline-block;
+    background: linear-gradient(80deg,purple,mediumpurple);
+    border-radius: 30px !important;
+    border: 1px solid white;
+    width: 100px !important;
+    color: white !important;
+}
+.third{
+    display: inline-block;
+    background: linear-gradient(80deg,blue,blueviolet);
+    border-radius: 30px !important;
+    width: 100px !important;
+    color: white !important;
+}
+.fourth{
+    display: inline-block;
+    background: linear-gradient(80deg,aqua,aquamarine);
+    border-radius: 30px !important;
+    width: 100px !important;
+    color: white !important;
+}
+.main-menu{
+    margin-top: 200px;
+    margin-left: 600px;
+}
+.wrap{
+    width: 1200px;
+    margin-left: 20px;
+}
+.img-box{
+    width: 12px;
+    float: left;
+    margin-left: -410px;
+}
+.img-box1{
+    width: 12px;
+    float: left;
+    margin-left: -200px;
+}
+.img-box2{
+    width: 12px;
+    float: left;
+    margin-left: -80px;
+    margin-top: 22px;
+}
+.img-box3{
+    width: 12px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img-box4{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box5{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box6{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box7{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box8{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box9{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box10{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box11{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box12{
+    width: 12px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img-box img{
+    object-fit: cover;
+    border-radius: 70px;
+}
+.class button{
+    float: left;
+    margin-top: 200px;
+    margin-left: -1360px;
+    border-radius: 20px;
+    width: 150px;
+}
+.class1 button{
+    background-color: #3bfff3;
+    margin-left: -1200px;
+    margin-top: -80px;
+    border-radius: 20px;
+    color: white;
+}
+.class2 button{
+    background-color: rgba(171,0,255,0.45);
+}
